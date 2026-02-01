@@ -1,0 +1,25 @@
+# PCB IoT Node - Tugas Akhir
+
+![Status Proyek](https://img.shields.io/badge/Status-Development-yellow)
+![Platform](https://img.shields.io/badge/Platform-IoT-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+## 📖 Deskripsi Proyek
+
+Repositori ini berisi file desain perangkat keras (Schematic & PCB Layout) dan dokumentasi untuk **IoT Node**. Proyek ini dikembangkan sebagai bagian dari **Tugas Akhir** di Departemen Teknik Elektro, Institut Teknologi Sepuluh Nopember (ITS).
+
+PCB ini dirancang untuk berfungsi sebagai node sensor/aktuator dalam sistem Internet of Things, dengan fokus pada efisiensi daya dan konektivitas yang handal.
+
+## 👤 Penulis
+
+**Dimas Raga**
+*   **Institusi:** Teknik Elektro, Institut Teknologi Sepuluh Nopember (ITS)
+*   **GitHub:** dimasraga
+*   **Instagram:** @dmsragaa
+
+## 📄 Lisensi
+
+Proyek ini dilisensikan di bawah lisensi MIT - lihat file LICENSE untuk detailnya.
+
+---
+*Dibuat untuk memenuhi persyaratan Tugas Akhir Teknik Elektro ITS.*
