@@ -1317,6 +1317,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 45.72) (xy 232.41 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12477e3c-a45d-4e06-989a-70e6138e44e9")
+	)
+	(wire
+		(pts
 			(xy 122.428 45.72) (xy 122.428 63.5)
 		)
 		(stroke
@@ -1477,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.768 86.36) (xy 178.054 86.36)
+			(xy 168.148 86.36) (xy 178.054 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.024 45.72) (xy 67.818 45.72)
+			(xy 57.404 45.72) (xy 67.818 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.934 86.36) (xy 234.95 86.36)
+			(xy 226.314 86.36) (xy 234.95 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1717,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.888 45.72) (xy 122.428 45.72)
+			(xy 112.268 45.72) (xy 122.428 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1837,16 +1847,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 45.72) (xy 232.41 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9373a778-3977-48bf-949c-3da1af72769d")
-	)
-	(wire
-		(pts
 			(xy 81.28 153.67) (xy 81.28 144.78)
 		)
 		(stroke
@@ -1857,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.006 45.72) (xy 177.8 45.72)
+			(xy 167.386 45.72) (xy 177.8 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.952 86.36) (xy 124.968 86.36)
+			(xy 116.332 86.36) (xy 124.968 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.786 86.36) (xy 68.072 86.36)
+			(xy 58.166 86.36) (xy 68.072 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3471,15 +3471,15 @@
 		(fields_autoplaced yes)
 		(uuid "2958bcbb-5c5c-44f1-b49d-a9d5562a3c6d")
 		(property "Reference" "R34"
-			(at 112.522 79.756 90)
+			(at 112.522 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 112.522 82.296 90)
+		(property "Value" "4k3"
+			(at 112.522 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,178 +3541,6 @@
 			(project "IoT NODE V3"
 				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.196 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a76dd6d-6ceb-4aee-aac5-846a08c66482")
-		(property "Reference" "R63"
-			(at 171.196 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 171.196 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 171.196 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.196 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.196 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C317246"
-			(at 171.196 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" ""
-			(at 171.196 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c4b5f0e-e1d9-4ed4-b59c-4bde1487f224")
-		)
-		(pin "2"
-			(uuid "e65dc207-b03c-4b00-9886-7af48aad6156")
-		)
-		(instances
-			(project "IoT NODE V3"
-				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.958 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30701829-1190-4821-9784-b0e335d0df46")
-		(property "Reference" "R64"
-			(at 171.958 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 171.958 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 171.958 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.958 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.958 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C317246"
-			(at 171.958 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" ""
-			(at 171.958 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6c1645d-796a-4431-a42f-febf56ce4ae5")
-		)
-		(pin "2"
-			(uuid "824edff5-3a18-44f2-a528-1a90eb097a53")
-		)
-		(instances
-			(project "IoT NODE V3"
-				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
-					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -3953,15 +3781,15 @@
 		(fields_autoplaced yes)
 		(uuid "4d0b040e-afd6-4a17-8631-1e77441e2ae9")
 		(property "Reference" "R61"
-			(at 163.576 39.878 90)
+			(at 163.576 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 163.576 42.418 90)
+		(property "Value" "4k3"
+			(at 163.576 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,92 +3851,6 @@
 			(project "IoT NODE V3"
 				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
 					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 226.06 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ef95fed-4171-4fcd-8f59-ef68867c61f6")
-		(property "Reference" "R69"
-			(at 226.06 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 226.06 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 226.06 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 226.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C317246"
-			(at 226.06 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" ""
-			(at 226.06 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a5253ed-8617-4186-ae18-96822bfa66ac")
-		)
-		(pin "2"
-			(uuid "e3f45db9-fef4-4e75-95ca-ba853705d1c9")
-		)
-		(instances
-			(project "IoT NODE V3"
-				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
-					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -4345,15 +4087,15 @@
 		(fields_autoplaced yes)
 		(uuid "63ea95f7-db19-494a-95bb-37d2ee67b805")
 		(property "Reference" "R67"
-			(at 218.44 39.878 90)
+			(at 218.44 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 218.44 42.418 90)
+		(property "Value" "4k3"
+			(at 218.44 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,15 +4239,15 @@
 		(fields_autoplaced yes)
 		(uuid "728f1d1a-aa09-4f38-8db2-c7a2c93c1200")
 		(property "Reference" "R30"
-			(at 54.356 80.518 90)
+			(at 54.356 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 54.356 83.058 90)
+		(property "Value" "4k3"
+			(at 54.356 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,15 +4413,15 @@
 		(fields_autoplaced yes)
 		(uuid "7de3dc70-3074-491c-8e21-4082caf801e5")
 		(property "Reference" "R68"
-			(at 222.504 79.756 90)
+			(at 222.504 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 222.504 82.296 90)
+		(property "Value" "4k3"
+			(at 222.504 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,264 +4483,6 @@
 			(project "IoT NODE V3"
 				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
 					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 230.124 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "836804be-52da-437f-8518-73a56ad3b6a0")
-		(property "Reference" "R70"
-			(at 230.124 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 230.124 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 230.124 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 230.124 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 230.124 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C317246"
-			(at 230.124 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" ""
-			(at 230.124 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1adf4f4-7f6a-4273-a4ee-74d3e2c48c00")
-		)
-		(pin "2"
-			(uuid "f0099d5e-408c-4921-be0c-1d3f3b4430ff")
-		)
-		(instances
-			(project "IoT NODE V3"
-				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
-					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 61.976 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85118dae-8c1d-445b-b67e-ed1e3516498c")
-		(property "Reference" "R55"
-			(at 61.976 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 61.976 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 61.976 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 61.976 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 61.976 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C317246"
-			(at 61.976 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" ""
-			(at 61.976 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4e02302-b8c9-4021-9eec-46fc73dfbb15")
-		)
-		(pin "2"
-			(uuid "1f1c5a8d-5758-4ace-8249-d263812cd074")
-		)
-		(instances
-			(project "IoT NODE V3"
-				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 61.214 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ce5d879-255c-4591-a3fc-ed9448f6d929")
-		(property "Reference" "R56"
-			(at 61.214 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 61.214 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 61.214 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 61.214 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 61.214 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C317246"
-			(at 61.214 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" ""
-			(at 61.214 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c08948ea-a3e6-4145-9434-b30908d29cf8")
-		)
-		(pin "2"
-			(uuid "b4df92b1-4edb-4c2b-a00c-bb70ef4823b6")
-		)
-		(instances
-			(project "IoT NODE V3"
-				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
-					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -5415,15 +4899,15 @@
 		(fields_autoplaced yes)
 		(uuid "9d0f4341-5403-4be7-9526-b70cace9c99d")
 		(property "Reference" "R29"
-			(at 53.594 39.878 90)
+			(at 53.594 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 53.594 42.418 90)
+		(property "Value" "4k3"
+			(at 53.594 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,15 +5210,15 @@
 		(fields_autoplaced yes)
 		(uuid "ad05b8ab-7735-4146-85ea-3ebb0177518f")
 		(property "Reference" "R62"
-			(at 164.338 80.518 90)
+			(at 164.338 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 164.338 83.058 90)
+		(property "Value" "4k3"
+			(at 164.338 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,92 +5280,6 @@
 			(project "IoT NODE V3"
 				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.142 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae7b7895-dd01-4757-b856-4ad1e71bf744")
-		(property "Reference" "R58"
-			(at 120.142 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 120.142 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 120.142 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.142 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.142 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C317246"
-			(at 120.142 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" ""
-			(at 120.142 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "564e7de5-61c6-4765-a085-18c731f4fdec")
-		)
-		(pin "2"
-			(uuid "e95a60a0-4221-4663-bc9b-691c7f170eaf")
-		)
-		(instances
-			(project "IoT NODE V3"
-				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
-					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -6052,15 +5450,15 @@
 		(fields_autoplaced yes)
 		(uuid "ce19957d-5766-42dc-b2c5-105767320d06")
 		(property "Reference" "R32"
-			(at 108.458 39.878 90)
+			(at 108.458 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470"
-			(at 108.458 42.418 90)
+		(property "Value" "4k3"
+			(at 108.458 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,92 +5608,6 @@
 			(project "IoT NODE V3"
 				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.078 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4f7892e-8c51-4819-ab8e-9ec0629b0b61")
-		(property "Reference" "R57"
-			(at 116.078 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 116.078 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 116.078 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.078 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.078 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C317246"
-			(at 116.078 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc" ""
-			(at 116.078 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "720efb7f-ad7a-4a10-9101-2291ed7d9ed9")
-		)
-		(pin "2"
-			(uuid "350c6a58-15d8-4f77-ba51-aee13ae22aaa")
-		)
-		(instances
-			(project "IoT NODE V3"
-				(path "/21ac5d45-dbb4-47f3-ab82-128b2e72ac80/66a4b5ae-605e-4613-aef4-dc085060776d"
-					(reference "R57")
 					(unit 1)
 				)
 			)
